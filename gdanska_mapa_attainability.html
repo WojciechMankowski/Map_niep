@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d42c3b9549ce4178ac0bc9559036edee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d42c3b9549ce4178ac0bc9559036edee" ></div>
+        
+</body>
+<script>    
+    
+            var map_d42c3b9549ce4178ac0bc9559036edee = L.map(
+                "map_d42c3b9549ce4178ac0bc9559036edee",
+                {
+                    center: [54.34632, 18.649246],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+
+            
+
+        
+    
+            var tile_layer_9e553028509741a390b12ebfb3d61c73 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var marker_764db0b0637e44a7a23360a03fa5a8f3 = L.marker(
+                [54.350119500000005, 18.653541934447297],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_ccf93bf240c7491dbae2ed163579b8fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_764db0b0637e44a7a23360a03fa5a8f3.setIcon(icon_ccf93bf240c7491dbae2ed163579b8fc);
+        
+    
+        var popup_e143b72bd27e431eb5be44e1bc6a0107 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05394ed854854d77b53192f2e7d33d83 = $(`<div id="html_05394ed854854d77b53192f2e7d33d83" style="width: 100.0%; height: 100.0%;">Potrzeba otwarcia<b> dwóch skrzydeł drzwi</b>Należy skierować<b> do obsługi </b> aby postawili podjazd </div>`)[0];
+            popup_e143b72bd27e431eb5be44e1bc6a0107.setContent(html_05394ed854854d77b53192f2e7d33d83);
+        
+
+        marker_764db0b0637e44a7a23360a03fa5a8f3.bindPopup(popup_e143b72bd27e431eb5be44e1bc6a0107)
+        ;
+
+        
+    
+    
+            marker_764db0b0637e44a7a23360a03fa5a8f3.bindTooltip(
+                `<div>
+                     Bazylika Mariacka, pw. Wniebowzięcia NMP
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f84435bc52314c0f9749a156ede1ea3b = L.marker(
+                [54.351234500000004, 18.659037888656236],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_30d8e611a6374d22b677cda7bba24c74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f84435bc52314c0f9749a156ede1ea3b.setIcon(icon_30d8e611a6374d22b677cda7bba24c74);
+        
+    
+        var popup_25e55e85162d49afb6acdd9f681eb32f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b54a5d9e86740d1a776f19440e9b94e = $(`<div id="html_1b54a5d9e86740d1a776f19440e9b94e" style="width: 100.0%; height: 100.0%;">Wejście bez schodów ze strony parkingu Winda obsługuje wszystkie trzy poziomy. Toalety dostosowane do potrzeb osób z niepełnosprawnością .</div>`)[0];
+            popup_25e55e85162d49afb6acdd9f681eb32f.setContent(html_1b54a5d9e86740d1a776f19440e9b94e);
+        
+
+        marker_f84435bc52314c0f9749a156ede1ea3b.bindPopup(popup_25e55e85162d49afb6acdd9f681eb32f)
+        ;
+
+        
+    
+    
+            marker_f84435bc52314c0f9749a156ede1ea3b.bindTooltip(
+                `<div>
+                     Centralne Muzeum Morskie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95d2610aeccc47cfaec2273f7f9ea8a5 = L.marker(
+                [54.3509985, 18.6589903],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_ebb68809f0a04beab43d162c5c02e4c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_95d2610aeccc47cfaec2273f7f9ea8a5.setIcon(icon_ebb68809f0a04beab43d162c5c02e4c9);
+        
+    
+        var popup_94ff21797a434470ad125bfe7005d2ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0720cd450f544df1b1e39ca8e5e2409b = $(`<div id="html_0720cd450f544df1b1e39ca8e5e2409b" style="width: 100.0%; height: 100.0%;">Statek nieprzystosowany do zwiedzania dla osób z niepełnosprawnością ruchową oraz osób niedowidzących lub niewidomych z uwagi na specyfikę obiektu.</div>`)[0];
+            popup_94ff21797a434470ad125bfe7005d2ae.setContent(html_0720cd450f544df1b1e39ca8e5e2409b);
+        
+
+        marker_95d2610aeccc47cfaec2273f7f9ea8a5.bindPopup(popup_94ff21797a434470ad125bfe7005d2ae)
+        ;
+
+        
+    
+    
+            marker_95d2610aeccc47cfaec2273f7f9ea8a5.bindTooltip(
+                `<div>
+                     Centralne Muzeum Morskie - Sołdek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76ed6fa0d4174a0881fd9ebb50754491 = L.marker(
+                [54.358533800000004, 18.64094981459732],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_0ec38547a69d42c7a91764e8065074cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "globe", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_76ed6fa0d4174a0881fd9ebb50754491.setIcon(icon_0ec38547a69d42c7a91764e8065074cd);
+        
+    
+        var popup_c4d5a879eb7c41698e1baeff30b40013 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7de89a1dc452485a99d2e0078163d608 = $(`<div id="html_7de89a1dc452485a99d2e0078163d608" style="width: 100.0%; height: 100.0%;">Od strony parkingu brak schodków i tym wejściem <b>należy wchodzić</b>. Winda obsługuje wszystkie piętra oraz są toalety dostosowane do osób z niepełnosprawnością. </div>`)[0];
+            popup_c4d5a879eb7c41698e1baeff30b40013.setContent(html_7de89a1dc452485a99d2e0078163d608);
+        
+
+        marker_76ed6fa0d4174a0881fd9ebb50754491.bindPopup(popup_c4d5a879eb7c41698e1baeff30b40013)
+        ;
+
+        
+    
+    
+            marker_76ed6fa0d4174a0881fd9ebb50754491.bindTooltip(
+                `<div>
+                     Centrum Hewelianum (PKFM 'Twierdza Gdańsk', Grodzisko)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cf04bf96bb2457e8bca066fb460a7c1 = L.marker(
+                [54.357126949999994, 18.640776423624672],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_181b14b3ca294c2086cc3d8211a0d237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "globe", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5cf04bf96bb2457e8bca066fb460a7c1.setIcon(icon_181b14b3ca294c2086cc3d8211a0d237);
+        
+    
+        var popup_a4cbb6ee13144ad6a3bb7fe778ace80e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64c9d316dc99454eaa5b22c8e4e4d3b5 = $(`<div id="html_64c9d316dc99454eaa5b22c8e4e4d3b5" style="width: 100.0%; height: 100.0%;">Wjazd wózkiem podjazd od ul. 3 Maja lub ul. Dąbrowskiego i ul. Gradową (można samochodem); <b> zjazdy i podjazdy wymagają pomocy 2.osoby<b>,  szer. 90cm drzwi schronów</div>`)[0];
+            popup_a4cbb6ee13144ad6a3bb7fe778ace80e.setContent(html_64c9d316dc99454eaa5b22c8e4e4d3b5);
+        
+
+        marker_5cf04bf96bb2457e8bca066fb460a7c1.bindPopup(popup_a4cbb6ee13144ad6a3bb7fe778ace80e)
+        ;
+
+        
+    
+    
+            marker_5cf04bf96bb2457e8bca066fb460a7c1.bindTooltip(
+                `<div>
+                     Park Kulturowy Fortyfikacji Miejskich "Twierdza Gdańsk" (Grodzisko)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71af303466e341a5a37344781b5c0c7e = L.marker(
+                [54.4045254, 18.5888444],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_20867183913541898b34fc4307af409a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "film", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_71af303466e341a5a37344781b5c0c7e.setIcon(icon_20867183913541898b34fc4307af409a);
+        
+    
+        var popup_fe74e29bcac340f1bd2af329f7500745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9517a904a5c54b7783e8e067c54bdcd3 = $(`<div id="html_9517a904a5c54b7783e8e067c54bdcd3" style="width: 100.0%; height: 100.0%;">Wjazd wózkiem podjazd od ul. 3 Maja lub ul. Dąbrowskiego i ul. Gradową (można samochodem). 90 cm to szer. drzwi schronów  gdzie są ekspozycje. </div>`)[0];
+            popup_fe74e29bcac340f1bd2af329f7500745.setContent(html_9517a904a5c54b7783e8e067c54bdcd3);
+        
+
+        marker_71af303466e341a5a37344781b5c0c7e.bindPopup(popup_fe74e29bcac340f1bd2af329f7500745)
+        ;
+
+        
+    
+    
+            marker_71af303466e341a5a37344781b5c0c7e.bindTooltip(
+                `<div>
+                     Kino Helios w "Alfie Centrum"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_365068c48d074f5583fa3db9d06e450f = L.marker(
+                [54.3870291, 18.592340256009617],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_bb16eb737b1d478b95523d9195ccf7e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "film", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_365068c48d074f5583fa3db9d06e450f.setIcon(icon_bb16eb737b1d478b95523d9195ccf7e9);
+        
+    
+        var popup_b0a2b95013b84700bf68369aae718281 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eb412036d844c119f3d12cfab1eba12 = $(`<div id="html_6eb412036d844c119f3d12cfab1eba12" style="width: 100.0%; height: 100.0%;">Kino znajduje się w centrum handlowym na poziomie +2. Wydzielone są miejsca na wózki. Toalety są dostosowane do osób z niepełnosprawnością znajdują się zaraz obok sal. Winda obsługuje wszystkie piętra. </div>`)[0];
+            popup_b0a2b95013b84700bf68369aae718281.setContent(html_6eb412036d844c119f3d12cfab1eba12);
+        
+
+        marker_365068c48d074f5583fa3db9d06e450f.bindPopup(popup_b0a2b95013b84700bf68369aae718281)
+        ;
+
+        
+    
+    
+            marker_365068c48d074f5583fa3db9d06e450f.bindTooltip(
+                `<div>
+                     klub Żak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d15ea7d67bb44a9a5d5005ee28bbe97 = L.marker(
+                [54.3450344, 18.824868843176496],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_71ca76b7c1ae42138df2aead0af6a7fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_6d15ea7d67bb44a9a5d5005ee28bbe97.setIcon(icon_71ca76b7c1ae42138df2aead0af6a7fd);
+        
+    
+        var popup_c926c02c91fa4d15955175e5fea4e745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdbfaf9b7b954a0794c66238def406a0 = $(`<div id="html_cdbfaf9b7b954a0794c66238def406a0" style="width: 100.0%; height: 100.0%;">Wszystkie osoby z niepełnosprawnością bez problemu dostaną się do środka. Toaleta jest na parterze oraz na piętrze.</div>`)[0];
+            popup_c926c02c91fa4d15955175e5fea4e745.setContent(html_cdbfaf9b7b954a0794c66238def406a0);
+        
+
+        marker_6d15ea7d67bb44a9a5d5005ee28bbe97.bindPopup(popup_c926c02c91fa4d15955175e5fea4e745)
+        ;
+
+        
+    
+    
+            marker_6d15ea7d67bb44a9a5d5005ee28bbe97.bindTooltip(
+                `<div>
+                     Kościół pw. Matki Boskiej Saletyńskiej
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0192c9d2d05439d97f9aa642f719bc6 = L.marker(
+                [54.37209945, 18.627238493164096],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_92d87c07e6cc4aafb9771c2558763460 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "film", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a0192c9d2d05439d97f9aa642f719bc6.setIcon(icon_92d87c07e6cc4aafb9771c2558763460);
+        
+    
+        var popup_c43054226968497ab0e38121109974a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e0f522ddb934a35adc9421cb270720f = $(`<div id="html_3e0f522ddb934a35adc9421cb270720f" style="width: 100.0%; height: 100.0%;">Furtka ogrodzenia kościelnego szer. 90 cm; toalety w przykościelnym Klubie Parafialnym lub Domu Pielgrzyma</div>`)[0];
+            popup_c43054226968497ab0e38121109974a9.setContent(html_3e0f522ddb934a35adc9421cb270720f);
+        
+
+        marker_a0192c9d2d05439d97f9aa642f719bc6.bindPopup(popup_c43054226968497ab0e38121109974a9)
+        ;
+
+        
+    
+    
+            marker_a0192c9d2d05439d97f9aa642f719bc6.bindTooltip(
+                `<div>
+                     Multikino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b6dea3ddbcd4a93b0abdcd296593c37 = L.marker(
+                [54.34555215, 18.646904640467845],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_4dd5d3ab98714363b058a59426435f25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "image", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_7b6dea3ddbcd4a93b0abdcd296593c37.setIcon(icon_4dd5d3ab98714363b058a59426435f25);
+        
+    
+        var popup_f4561d1013c745aebe14e6dc0e9ef233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0db93872c9514cbf93e73154c4bdf5ba = $(`<div id="html_0db93872c9514cbf93e73154c4bdf5ba" style="width: 100.0%; height: 100.0%;">Wejście do sali kinowej szer. 120 cm; wjazd samochodem na parking od ul. Towarowej (za Operą Bałtycką); drzwi 2-skrzydłowe, jeżeli otworzyć oba skrzydła, to 180 cm.</div>`)[0];
+            popup_f4561d1013c745aebe14e6dc0e9ef233.setContent(html_0db93872c9514cbf93e73154c4bdf5ba);
+        
+
+        marker_7b6dea3ddbcd4a93b0abdcd296593c37.bindPopup(popup_f4561d1013c745aebe14e6dc0e9ef233)
+        ;
+
+        
+    
+    
+            marker_7b6dea3ddbcd4a93b0abdcd296593c37.bindTooltip(
+                `<div>
+                     Muzeum Narodowe w Gdańsku-Oddział Sztuki Dawnej
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e973ca2b07a4d74a0b3c13c92d19cde = L.marker(
+                [54.3478678, 18.6557171],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_ba65f71c051a42f4a8a29847369dd959 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "image", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3e973ca2b07a4d74a0b3c13c92d19cde.setIcon(icon_ba65f71c051a42f4a8a29847369dd959);
+        
+    
+        var popup_4560c0a921db432aa395391d66a28a8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea04116736914aea81e04f6948538d19 = $(`<div id="html_ea04116736914aea81e04f6948538d19" style="width: 100.0%; height: 100.0%;"> Winda na wszystkie piętra (ekspozycje); przyciski w windzie w brajlu; obniżona lada z kasą; okresowo multimedia dźwiękowe; 1schodek do budynku i schody w dół (poziom -1) do dostosowanej toalety, ale tu pomoże personel i ochrona</div>`)[0];
+            popup_4560c0a921db432aa395391d66a28a8d.setContent(html_ea04116736914aea81e04f6948538d19);
+        
+
+        marker_3e973ca2b07a4d74a0b3c13c92d19cde.bindPopup(popup_4560c0a921db432aa395391d66a28a8d)
+        ;
+
+        
+    
+    
+            marker_3e973ca2b07a4d74a0b3c13c92d19cde.bindTooltip(
+                `<div>
+                     Muzeum Narodowe w Gdańsku - Oddział Zielona Brama
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_000ec4203aa74734bfe7a22077ebea23 = L.marker(
+                [54.352477, 18.659702970036125],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_4d405cfbac2c48be86b333d96847b2a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "music", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_000ec4203aa74734bfe7a22077ebea23.setIcon(icon_4d405cfbac2c48be86b333d96847b2a9);
+        
+    
+        var popup_36e594f6ce3149e296e8228168c92ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_579c4783c2384ea28dfd0019adca89e5 = $(`<div id="html_579c4783c2384ea28dfd0019adca89e5" style="width: 100.0%; height: 100.0%;">Zestawy dla niedosłyszących-słuchawki w kasie, szer. drzwi do kasy 90 cm. Winda na I piętro, przyciski w windzie w brajlu. Płaskie wejście do Sali Kameralnej, podjazd do Sali Koncertowej i zjazdy z foyer do Sali i miejsca na wózek. Toaleta na parterze.</div>`)[0];
+            popup_36e594f6ce3149e296e8228168c92ee4.setContent(html_579c4783c2384ea28dfd0019adca89e5);
+        
+
+        marker_000ec4203aa74734bfe7a22077ebea23.bindPopup(popup_36e594f6ce3149e296e8228168c92ee4)
+        ;
+
+        
+    
+    
+            marker_000ec4203aa74734bfe7a22077ebea23.bindTooltip(
+                `<div>
+                     Polska Filharmonia Bałtycka im. Fryderyka Chopina w Gdańsku
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cda43f233efb4651910cf5ea2155044f = L.marker(
+                [54.3613609, 18.64941889584214],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_2f785e6c2f2a43a9be0319e09bab0d9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "history", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_cda43f233efb4651910cf5ea2155044f.setIcon(icon_2f785e6c2f2a43a9be0319e09bab0d9d);
+        
+    
+        var popup_08c90aff3d334f16b0011e46f3a1aeb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58eeb2ab835544279dd160c4a0baac84 = $(`<div id="html_58eeb2ab835544279dd160c4a0baac84" style="width: 100.0%; height: 100.0%;">Przed wejściem są podjazdy, 2 windy jeżdżące po wszystkich piętrach, schody ruchome i toalety dostosowane do osób z niepełnosprawnością.</div>`)[0];
+            popup_08c90aff3d334f16b0011e46f3a1aeb5.setContent(html_58eeb2ab835544279dd160c4a0baac84);
+        
+
+        marker_cda43f233efb4651910cf5ea2155044f.bindPopup(popup_08c90aff3d334f16b0011e46f3a1aeb5)
+        ;
+
+        
+    
+    
+            marker_cda43f233efb4651910cf5ea2155044f.bindTooltip(
+                `<div>
+                     Europejskie Centrum Solidarności
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ac94f095b514b0cb791b533498775c1 = L.marker(
+                [52.5647811, 19.7286126],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_83914e71412c4763941d05d147ae1061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "history", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_4ac94f095b514b0cb791b533498775c1.setIcon(icon_83914e71412c4763941d05d147ae1061);
+        
+    
+        var popup_63d571a05b7d4fc18424d8d20ce5acd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd92386bd10d4ec7b2d0685d9e3558f6 = $(`<div id="html_bd92386bd10d4ec7b2d0685d9e3558f6" style="width: 100.0%; height: 100.0%;">Przed wejściem są podjazdy, 2 windy jeżdżące po wszystkich piętrach, schody ruchome i toalety dostosowane do osób z niepełnosprawnością.</div>`)[0];
+            popup_63d571a05b7d4fc18424d8d20ce5acd8.setContent(html_bd92386bd10d4ec7b2d0685d9e3558f6);
+        
+
+        marker_4ac94f095b514b0cb791b533498775c1.bindPopup(popup_63d571a05b7d4fc18424d8d20ce5acd8)
+        ;
+
+        
+    
+    
+            marker_4ac94f095b514b0cb791b533498775c1.bindTooltip(
+                `<div>
+                     Muzeum II wojny światowej
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9b626a07e3940169181f90e33ba3489 = L.marker(
+                [54.350571099999996, 18.657508691073627],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_e6d1fafca346476093e8cb60c46f3cd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d9b626a07e3940169181f90e33ba3489.setIcon(icon_e6d1fafca346476093e8cb60c46f3cd6);
+        
+    
+        var popup_eaefa43b06444b9a9c7d0dab1c1ac2bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b48fa55a827a4de5bede38defd7a5717 = $(`<div id="html_b48fa55a827a4de5bede38defd7a5717" style="width: 100.0%; height: 100.0%;">Budynek nieprzystosowany do zwiedzania dla osób z ograniczeniami ruchowymi oraz osób niedowidzących lub niewidomych z uwagi na architekturę obiektu zabytkowego.</div>`)[0];
+            popup_eaefa43b06444b9a9c7d0dab1c1ac2bb.setContent(html_b48fa55a827a4de5bede38defd7a5717);
+        
+
+        marker_d9b626a07e3940169181f90e33ba3489.bindPopup(popup_eaefa43b06444b9a9c7d0dab1c1ac2bb)
+        ;
+
+        
+    
+    
+            marker_d9b626a07e3940169181f90e33ba3489.bindTooltip(
+                `<div>
+                     Żuraw
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7139d57261c2427d8f08f7ca26dc95a3 = L.marker(
+                [54.350851899999995, 18.65736688741405],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_9c0f381c7e974be281a19a22eb2564ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_7139d57261c2427d8f08f7ca26dc95a3.setIcon(icon_9c0f381c7e974be281a19a22eb2564ed);
+        
+    
+        var popup_ff4c8f0286f447849108ea4b1a87676e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93ba5c62cab648f7ad8005871deebd91 = $(`<div id="html_93ba5c62cab648f7ad8005871deebd91" style="width: 100.0%; height: 100.0%;">Wejścia są płaskie i są to automatyczne otwierające drzwi. Winda obsługuje wszystkie piętra.</div>`)[0];
+            popup_ff4c8f0286f447849108ea4b1a87676e.setContent(html_93ba5c62cab648f7ad8005871deebd91);
+        
+
+        marker_7139d57261c2427d8f08f7ca26dc95a3.bindPopup(popup_ff4c8f0286f447849108ea4b1a87676e)
+        ;
+
+        
+    
+    
+            marker_7139d57261c2427d8f08f7ca26dc95a3.bindTooltip(
+                `<div>
+                     Ośrodek Kultury Morskiej
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d54397a26e9949b09cc0a344f7b2301a = L.marker(
+                [54.34833325, 18.65384136385878],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_c711371dba884d4ea54434a74874517e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "history", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_d54397a26e9949b09cc0a344f7b2301a.setIcon(icon_c711371dba884d4ea54434a74874517e);
+        
+    
+        var popup_22796297b2be4d768286dfb56a0b0168 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bce741fbf59a4e53b30581180b1b0d29 = $(`<div id="html_bce741fbf59a4e53b30581180b1b0d29" style="width: 100.0%; height: 100.0%;">Posiada zaplecze umożliwiające turystom na wózkach inwalidzkich swobodne poruszanie się. Wejście znajduje się na tyłach Dworu Artusa, od ulicy Chlebnickiej.</div>`)[0];
+            popup_22796297b2be4d768286dfb56a0b0168.setContent(html_bce741fbf59a4e53b30581180b1b0d29);
+        
+
+        marker_d54397a26e9949b09cc0a344f7b2301a.bindPopup(popup_22796297b2be4d768286dfb56a0b0168)
+        ;
+
+        
+    
+    
+            marker_d54397a26e9949b09cc0a344f7b2301a.bindTooltip(
+                `<div>
+                     Dwór Artusa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e14f76e0d16b4d7788b7d94cb4e0fd41 = L.marker(
+                [54.3489256, 18.652670002914796],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_9c0954abbe8445338739cfbaf86639ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "history", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_e14f76e0d16b4d7788b7d94cb4e0fd41.setIcon(icon_9c0954abbe8445338739cfbaf86639ca);
+        
+    
+        var popup_e0e73299f12e4cbcbc4f25a910ac1e09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4467eb2ebdc4b68a802228c10b06a03 = $(`<div id="html_f4467eb2ebdc4b68a802228c10b06a03" style="width: 100.0%; height: 100.0%;">Zwiedzanie Ratusza Głównego Miasta możliwe jest dzięki windzie, do której wejście znajduje się na tyłach budynku, tj. od ulicy Piwnej. Winda dowozi na wszystkie poziomy sal wystawowych oprócz wieży widokowej Ratusza. W obiekcie znajdują się także toalety dostosowane do potrzeb osób niepełnosprawnych ruchowo oraz rampy i podjazdy.</div>`)[0];
+            popup_e0e73299f12e4cbcbc4f25a910ac1e09.setContent(html_f4467eb2ebdc4b68a802228c10b06a03);
+        
+
+        marker_e14f76e0d16b4d7788b7d94cb4e0fd41.bindPopup(popup_e0e73299f12e4cbcbc4f25a910ac1e09)
+        ;
+
+        
+    
+    
+            marker_e14f76e0d16b4d7788b7d94cb4e0fd41.bindTooltip(
+                `<div>
+                     Ratuszcz Główny Miasta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b28702cfddae4a0eb42c05066fdd4d9f = L.marker(
+                [54.41115515, 18.560418046973965],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_50f06d3caedb44e2ba4da5b7447a0993 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "history", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_b28702cfddae4a0eb42c05066fdd4d9f.setIcon(icon_50f06d3caedb44e2ba4da5b7447a0993);
+        
+    
+        var popup_2addfd1eb3f74aa7aecbfdff327c9da8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e28dc5abb2054aa385fd25cd6f666b38 = $(`<div id="html_e28dc5abb2054aa385fd25cd6f666b38" style="width: 100.0%; height: 100.0%;">Wejście do budynku Pałacu Opatów – jeden wysoki stopień i drzwi otwierane do wewnątrz. Bezpośrednio za drzwiami wejściowymi znajduje się kasa biletowa, a w sąsiadującym holu – szatnia obsługiwana przez pracowników służby ochrony MNG. Brak indywidualnych zamykanych szafek. Brak toalety przystosowanej dla osób niepełnosprawnych. Brak toalety z przewijakiem.</div>`)[0];
+            popup_2addfd1eb3f74aa7aecbfdff327c9da8.setContent(html_e28dc5abb2054aa385fd25cd6f666b38);
+        
+
+        marker_b28702cfddae4a0eb42c05066fdd4d9f.bindPopup(popup_2addfd1eb3f74aa7aecbfdff327c9da8)
+        ;
+
+        
+    
+    
+            marker_b28702cfddae4a0eb42c05066fdd4d9f.bindTooltip(
+                `<div>
+                     Muzeum Narodowe w Gdańsku / Oddział Sztuki Nowoczesnej.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cca741f69ea145d08b7c187d1e84c740 = L.marker(
+                [54.41155725, 18.55929863049242],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_35e59a9ceebe43b38f1b4afc774dead5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "history", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cca741f69ea145d08b7c187d1e84c740.setIcon(icon_35e59a9ceebe43b38f1b4afc774dead5);
+        
+    
+        var popup_7e7b4fe1e1564720a1e7d12a2439a2f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_259257b0118f48dc96ac896bf14fe3aa = $(`<div id="html_259257b0118f48dc96ac896bf14fe3aa" style="width: 100.0%; height: 100.0%;">Wejście do budynku Oddziału Etnografii znajduje się tuż po lewej stronie bezpośrednio po wejściu przez bramę do Parku Oliwskiego od Katedry Oliwskiej. Do drzwi wejściowych prowadzi niedawno wyremontowany płaski i równy chodnik. Wejście do budynku – bez bariery jakiegokolwiek podwyższenia.</div>`)[0];
+            popup_7e7b4fe1e1564720a1e7d12a2439a2f7.setContent(html_259257b0118f48dc96ac896bf14fe3aa);
+        
+
+        marker_cca741f69ea145d08b7c187d1e84c740.bindPopup(popup_7e7b4fe1e1564720a1e7d12a2439a2f7)
+        ;
+
+        
+    
+    
+            marker_cca741f69ea145d08b7c187d1e84c740.bindTooltip(
+                `<div>
+                     Muzeum Narodowe w Gdańsku / Oddział Etnografii
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_936943fc5d05426b9f6f1d2e2b78f06b = L.marker(
+                [54.3478678, 18.6557171],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_17c2f5a224c34ee9ba758650cf0144e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "history", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_936943fc5d05426b9f6f1d2e2b78f06b.setIcon(icon_17c2f5a224c34ee9ba758650cf0144e5);
+        
+    
+        var popup_804a429a44df4ce796c56d200ce0008b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74ffbf3365c3446bbaa6d9723133282e = $(`<div id="html_74ffbf3365c3446bbaa6d9723133282e" style="width: 100.0%; height: 100.0%;">Bezpośrednio za drzwiami wejściowymi znajduje się kasa biletowa i szatnia obsługiwana przez pracowników służby ochrony MNG. Brak indywidualnych zamykanych szafek. Brak toalety przystosowanej dla osób niepełnosprawnych. Osoby ze specjalnymi potrzebami proszone są o ich zgłoszenie przy zakupie biletu. Dostęp do sal wystawienniczych Gdańskiej Galerii Fotografii za pomocą windy, jednak na II piętrze trzeba pokonać barierę kilku stopni schodów prowadzących na III piętro.</div>`)[0];
+            popup_804a429a44df4ce796c56d200ce0008b.setContent(html_74ffbf3365c3446bbaa6d9723133282e);
+        
+
+        marker_936943fc5d05426b9f6f1d2e2b78f06b.bindPopup(popup_804a429a44df4ce796c56d200ce0008b)
+        ;
+
+        
+    
+    
+            marker_936943fc5d05426b9f6f1d2e2b78f06b.bindTooltip(
+                `<div>
+                     Muzeum Narodowe w Gdańsku / Gdańska Galeria Fotografi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75607138d19845358ef79880b5ec68e8 = L.marker(
+                [54.3493108, 18.65638945484756],
+                {}
+            ).addTo(map_d42c3b9549ce4178ac0bc9559036edee);
+        
+    
+            var icon_83a72321f65c4116b8293a3c08eec51a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "image", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_75607138d19845358ef79880b5ec68e8.setIcon(icon_83a72321f65c4116b8293a3c08eec51a);
+        
+    
+        var popup_9f8c187d1be747e3a16fb7333d949ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_415873863c1c4a198525cea46eb1cdd6 = $(`<div id="html_415873863c1c4a198525cea46eb1cdd6" style="width: 100.0%; height: 100.0%;">Z powodu zabytkowej struktury jest problem dostania do środka.</div>`)[0];
+            popup_9f8c187d1be747e3a16fb7333d949ea3.setContent(html_415873863c1c4a198525cea46eb1cdd6);
+        
+
+        marker_75607138d19845358ef79880b5ec68e8.bindPopup(popup_9f8c187d1be747e3a16fb7333d949ea3)
+        ;
+
+        
+    
+    
+            marker_75607138d19845358ef79880b5ec68e8.bindTooltip(
+                `<div>
+                     Muzeum Archelogiczne w Gdańsku
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
